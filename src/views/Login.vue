@@ -309,6 +309,13 @@ export default {
   }
   
 }
+@media screen  and (max-width:560px ){
+  .please{
+  
+   display: inline-block;
+  }
+  
+}
 
 
 @media screen  and (max-width:600px ){
