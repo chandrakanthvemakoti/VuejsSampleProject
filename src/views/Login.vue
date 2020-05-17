@@ -118,7 +118,7 @@ export default {
      
       validate () {
         this.$refs.form.validate()
-        this.$router.push('/table')
+       
       },
     }
   }
