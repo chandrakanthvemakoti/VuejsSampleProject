@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Login from '../views/Login.vue'
-import About from '../views/About.vue'
+import Table from '../views/Table.vue'
 
 Vue.use(VueRouter)
 
@@ -12,9 +12,10 @@ Vue.use(VueRouter)
       component:Login
     },
   {
-    path: '/about',
-    name: 'about',
-    component: About
+    path: '/table',
+    name: 'table',
+    component: Table
+
   }
  
 ]
